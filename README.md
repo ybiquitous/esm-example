@@ -1,6 +1,6 @@
 # ES modules Example
 
-This repository is inspired session by @giltayar in NodeFest 2017.
+This repository is inspired [session by @giltayar in NodeFest 2017](http://nodefest.jp/2017/schedule.html#gil).
 
 See <https://github.com/giltayar/node-esm-tea>.
 
