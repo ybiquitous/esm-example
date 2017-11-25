@@ -1,0 +1,35 @@
+{
+  "name": "esm-example",
+  "version": "1.0.0",
+  "description": "ES modules Example",
+  "main": "index",
+  "scripts": {
+    "build": "babel *.mjs **/*.mjs -d .",
+    "esm": "node --experimental-modules .",
+    "precjs": "npm run build",
+    "cjs": "node ."
+  },
+  "keywords": [
+    "ES modules",
+    "ESM"
+  ],
+  "author": "ybiquitous <ybiquitous@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs",
+      "dynamic-import-node"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
+}
