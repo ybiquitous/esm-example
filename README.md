@@ -13,6 +13,12 @@ The session's sample repository is [here](https://github.com/giltayar/node-esm-t
 - Node 8+
 - Babel
 
+## Setup
+
+```sh
+npm i && npm t
+```
+
 ## ES modules
 
 ```sh
