@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "ES modules Example",
   "main": "index",
+  "files": [
+    "*.js",
+    "*.mjs"
+  ],
   "keywords": [
     "ES modules",
     "ESM"
