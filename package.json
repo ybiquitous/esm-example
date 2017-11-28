@@ -16,9 +16,9 @@
   "scripts": {
     "build": "babel *.mjs **/*.mjs --out-dir .",
     "esm": "node --experimental-modules .",
-    "precjs": "npm run build",
     "cjs": "node .",
-    "test": "npm run esm && npm run cjs"
+    "test": "npm run esm && npm run cjs",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "chalk": "^2.3.0"
