@@ -14,7 +14,7 @@
     "node": ">=8"
   },
   "scripts": {
-    "build": "babel *.mjs **/*.mjs -d .",
+    "build": "babel *.mjs **/*.mjs --out-dir .",
     "esm": "node --experimental-modules .",
     "precjs": "npm run build",
     "cjs": "node .",
